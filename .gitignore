@@ -1,0 +1,49 @@
+# Environment & Secrets (SANGAT PENTING: jangan sampai terupload ke GitHub)
+**/.env
+**/.env*.local
+!**/.env.example
+
+# Database Init Script (opsional, jika tidak ingin diupload)
+melodify-backend/init-db.js
+
+# Node.js
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Flutter / Dart
+**/.dart_tool/
+**/.packages
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+
+# Android & Gradle
+**/android/.gradle/
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+*.keystore
+*.jks
+
+# Desktop / Platform Ephemeral
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/ios/Flutter/.last_build_id
+
+# IDE & Editor
+**/.idea/
+**/.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS Generated
+.DS_Store
+Thumbs.db
